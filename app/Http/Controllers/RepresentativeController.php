@@ -74,11 +74,11 @@ class RepresentativeController extends Controller {
     }
     
     public function deleteRep(Request $request) {
-//        $data = Representative::find($request->id)->delete();
-//        if ($data) {
-//            $data = Representative::select('representatives.*', 'routes.name')->join('routes', 'routes.id', '=', 'representatives.route_id')->get();
-//            return view('includes.replist')->with('data', $data);
-//        }
+       $data = Representative::find($request->id)->delete();
+       if ($data) {
+           $data = Representative::select('representatives.*', 'routes.name')->join('routes', 'routes.id', '=', 'representatives.route_id')->get();
+           return view('includes.replist')->with('data', $data);
+       }
     }
 
     public function InsertData() {
