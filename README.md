@@ -7,12 +7,12 @@ This project has been developed based on the requirement in an assesment. Larave
 
 ## Database Setup
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=php_asela
-DB_USERNAME=root
-DB_PASSWORD=
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=php_asela<br>
+DB_USERNAME=root<br>
+DB_PASSWORD=<br>
 
 Next up, we need to create the database which will be grabbed from the ```DB_DATABASE``` environment variable.
 ```
